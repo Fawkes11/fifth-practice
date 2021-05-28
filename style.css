@@ -14,8 +14,8 @@ body{
 }
 .container{
     display: flex;
-    height: 30%;
-    width: 40%;
+    height: 320px;
+    width: 720px;
 }
 
 .img-draw{
@@ -120,7 +120,7 @@ body{
     border-top: 15px solid hsl(217, 19%, 35%);    
 }
 
-@media (max-width: 375px){
+@media (max-width: 768px){
     
     body{
         height: 75vh;
@@ -129,7 +129,7 @@ body{
     .container{
         display: inline;
         margin: auto;
-        width: 100%;
+        width: 335px;
         height: 330px;
         margin: 20px;
         
@@ -175,6 +175,3 @@ body{
     }
 
 }
-
-
-
